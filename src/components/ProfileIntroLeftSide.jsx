@@ -47,7 +47,7 @@ export const ProfileIntroLeftSide = () => {
   const handleDownload = () => {
     // Replace 'YOUR_GOOGLE_DRIVE_LINK_HERE' with the sharing link of your PDF file
     const pdfUrl =
-      "https://drive.google.com/file/d/1z__kIgheGUzQdBRp_dbCDnY7zmIsEf2f/view?usp=drive_link";
+      "https://drive.google.com/file/d/1lH2U8K-gmrcqfVSPiTsXPSSwxEUtzkWj/view?usp=sharing";
     // Open the PDF in a new tab for the user to download
     window.open(pdfUrl, "_blank");
   };

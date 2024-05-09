@@ -18,7 +18,7 @@ export const ContectMe = () => {
             Phone No
           </span>
           <span className="flex-[0_0_2rem]">:</span>
-          <span className="text-white">+(1){data?.phoneNo}</span>
+          <span className="text-white">+(1) {data?.phoneNo}</span>
         </li>
 
         <li className="flex items-center">
@@ -33,11 +33,11 @@ export const ContectMe = () => {
           <span className="text-white">{getLink(data?.links)}</span>
         </li>
 
-        <li className="flex items-center">
+        {/* <li className="flex items-center">
           <span className="flex-[0_0_6rem] text-primary font-bold">Skype</span>
           <span className="flex-[0_0_2rem]">:</span>
           <span className="text-white">{data?.skype}</span>
-        </li>
+        </li> */}
 
         <li className="flex items-center">
           <span className="flex-[0_0_6rem] text-primary font-bold">

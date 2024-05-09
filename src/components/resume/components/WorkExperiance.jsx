@@ -9,7 +9,7 @@ export const WorkExperience = ({ data, prefix, postfix }) => {
       <p className="text-md text-primary leading-6 mb-5">
         My professional background demonstrates a history of achievements and
         successes across multiple roles, reflecting consistent growth and impact
-        throughout my employment
+        throughout my employment.
       </p>
       <ExperienceList />
     </div>

@@ -2912,11 +2912,6 @@ input.tab:checked + .tab-content,
   margin: auto;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -3431,10 +3426,6 @@ input.tab:checked + .tab-content,
   border-style: dotted;
 }
 
-.border-\[\#069c7aff\] {
-  border-color: #069c7aff;
-}
-
 .border-\[\$\] {
   border-color: $;
 }
@@ -3456,6 +3447,10 @@ input.tab:checked + .tab-content,
 
 .bg-\[\#069c7a7a\] {
   background-color: #069c7a7a;
+}
+
+.bg-\[\#069c7aff\] {
+  background-color: #069c7aff;
 }
 
 .bg-\[\#18191A\] {
@@ -3505,10 +3500,6 @@ input.tab:checked + .tab-content,
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#069c7aff\] {
-  background-color: #069c7aff;
 }
 
 .bg-opacity-75 {
@@ -3638,11 +3629,6 @@ input.tab:checked + .tab-content,
   padding-bottom: 2rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .pr-3 {
   padding-right: 0.75rem;
 }
@@ -3714,6 +3700,11 @@ input.tab:checked + .tab-content,
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -3762,6 +3753,10 @@ input.tab:checked + .tab-content,
   letter-spacing: 0.05em;
 }
 
+.text-\[\#069c7aff\] {
+  color: #069c7aff;
+}
+
 .text-\[\#999999\] {
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
@@ -3794,10 +3789,6 @@ input.tab:checked + .tab-content,
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#069c7aff\] {
-  color: #069c7aff;
 }
 
 .text-opacity-60 {
@@ -4096,6 +4087,10 @@ body {
   border-color: #069c7aff;
 }
 
+.hover\:bg-\[\#069c7aff\]:hover {
+  background-color: #069c7aff;
+}
+
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
@@ -4104,10 +4099,6 @@ body {
 .hover\:bg-primaryDark:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(33 34 35 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#069c7aff\]:hover {
-  background-color: #069c7aff;
 }
 
 .hover\:text-\[\#069c7aff\]:hover {
@@ -4672,10 +4663,6 @@ body {
     left: 0px;
   }
 
-  .xl\:top-\[-47px\] {
-    top: -47px;
-  }
-
   .xl\:ml-\[0\%\] {
     margin-left: 0%;
   }
@@ -4692,16 +4679,20 @@ body {
     height: 335px;
   }
 
+  .xl\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .xl\:w-\[25\%\] {
     width: 25%;
   }
 
-  .xl\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .xl\:w-\[69\%\] {
     width: 69%;
+  }
+
+  .xl\:w-\[50\%\] {
+    width: 50%;
   }
 
   .xl\:grid-cols-3 {
